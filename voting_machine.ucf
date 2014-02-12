@@ -1,0 +1,22 @@
+########################################################
+# User Configuration File #
+# FILE NAME: voting_machine.ucf #
+# DATE: 6/21/08 #
+########################################################
+NET clk50MHz LOC = B8; # ON BOARD CLOCK WITH 50 MHz
+NET rst LOC = R17; # RESET PIN
+NET A LOC = G18; # DIP SWITCH
+NET B LOC = H18; # DIP SWITCH
+NET C LOC = K18; # DIP SWITCH
+NET LEDOUT<0> LOC = D16;# D
+NET LEDOUT<1> LOC = D17;# C
+NET LEDOUT<2> LOC = G14;# E
+NET LEDOUT<3> LOC = H14;# G
+NET LEDOUT<4> LOC = F18;# B
+NET LEDOUT<5> LOC = J17;# F
+NET LEDOUT<6> LOC = L18;# A
+NET LEDOUT<7> LOC = C17;# DP
+NET LEDSEL<0> LOC = F15;# AN3
+NET LEDSEL<1> LOC = C18;# AN2
+NET LEDSEL<2> LOC = H17;# AN1
+NET LEDSEL<3> LOC = F17;# AN0
